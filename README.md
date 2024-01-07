@@ -1,54 +1,32 @@
+# Taste Harbor 🍲
 
-# Api-Based-Meal-Finder using core Ingredient
+Welcome to Taste Harbor, an innovative API-based project tailored to help users discover delectable meals based on their chosen core ingredients. As a continuous work in progress, this project is committed to delivering a seamless culinary experience, with upcoming features including advanced filters for locality and food preferences.
 
-This is my first ever Api based project and it is used to find a meal based on the core ingredient which you have searched for in the search bar. It is a work in progress project I would be adding some or the additional features like locality filter, choice of food filter and many more like that so stay tuned.  
-## The Demo of working page
+**Live Demo:**
+Explore the working page [here](https://meal-ingredient-api.netlify.app/).
 
-The link to the working page is : https://meal-ingredient-api.netlify.app/
+**Project Demo Video:**
+[View the working website](your-video-link)
 
-This is the video for the working website: 
-![27092021-112137-REC](https://user-images.githubusercontent.com/71783722/134852717-a3e8198d-bff4-4d2f-97d2-dd6a508c26f6.gif)
+## Key Features
+- Comprehensive recipe retrieval based on specified core ingredients.
+- Inclusive presentation of both text-based recipes and video links.
+- Anticipated updates encompass advanced filters for location and food preferences.
+- Impeccable responsiveness for a user-friendly experience.
 
+## Frequently Asked Questions (FAQ)
 
+**Technologies Utilized:**
+HTML, CSS, JavaScript, with proficiency in API integration.
 
-
-## Features
-
-- Fetches all sorts of recipe based on the core ingredient searched  
-- Contains both Text based recipe and Video link of the recipe
-- *Will contain filters related to location and food choices.
-- Fully Responsive 
-
-
-
-  
-## FAQ
-
-#### Languages Used
-
-HTML, CSS AND JAVASCRIPT and basic knowledge of Api fetching
-
-
-
-## Authors
-
-- [@Shivam Jha](https://github.com/shivam-jha2712)
-
-  
 ## API Reference
+### Retrieve Recipe
+Endpoint: `www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast`
+#### Parameters:
+- `id` (text): Search input. ID of the item for fetching.
 
-#### Get Api
+This endpoint accepts core ingredient input and returns corresponding recipes.
 
-```http
-  www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast
-```
+For any inquiries or feedback, feel free to reach out.
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `text` | **search-input**. Id of item to fetch |
-
-#### Takes the ingredient
-
-Takes the core ingredient and returns the reciepe corresponding to it
-
-  
+Enjoy exploring the Taste Harbor experience!
